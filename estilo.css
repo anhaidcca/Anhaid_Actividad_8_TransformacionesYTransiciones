@@ -1,0 +1,29 @@
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+#img1{
+    transform: rotate(45deg);
+}
+
+#img2{
+    transition: all 1s ease-in;
+    
+}
+
+#img2:hover {
+    cursor: pointer;
+    transform: perspective(500px) scaleZ(2) rotateX(45deg);
+    border-radius: 40px;
+}
+
+#img3{
+    transform: scale(1, 1);
+    transition: all 1s ease-in;
+}
+
+#img3:hover {
+    cursor: zoom-in;
+    transform: scale(1.8, 1.8);
+}
